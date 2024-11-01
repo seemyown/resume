@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./css/uikit.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <title>Семён Альбеев</title>
+</head>
+
+<body>
+  <nav class="uk-navbar-container">
+    <div class="uk-container">
+      <div uk-navbar>
+        <div class="uk-navbar-left">
+          <a href="./" class="uk-logo">Семён Альбеев</a>
+        </div>
+        <div class="uk-navbar-right">
+          <ul class="uk-navbar-nav">
+            <li class="uk-visible@m">
+              <a href="#about">Обо мне</a>
+            </li>
+            <li class="uk-visible@s">
+              <a href="#xp-work">Опыт работы</a>
+            </li>
+            <li class="uk-visible@s">
+              <a href="#reviews">Отзывы</a>
+            </li>
+            <li class="uk-navbar-item">
+              <span>
+                <a href="#contacts" class="uk-button uk-button-primary">Оставить заявку</a>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="uk-section about" id="about">
+    <div class="uk-container">
+      <div uk-grid class="uk-child-width-1-2@s">
+        <div>
+          <h2 class="uk-heading-medium">Обо мне</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis odit rerum, dolorem
+            enim numquam,
+            recusandae eius hic velit incidunt unde perspiciatis suscipit cupiditate quaerat veniam voluptatibus
+            asperiores
+            corporis est amet.</p>
+        </div>
+        <div>
+          <img src="./images/photo.jpg" alt="Я" class="about-photo">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="uk-section service">
+    <div class="uk-container">
+      <div class="uk-container">
+        <h2 class="uk-heading-medium">Чем я занимаюсь</h2>
+        <div uk-grid class="uk-child-width-1-2@s">
+          <div>
+            <div class="uk-crad uk-card-body uk-card-default uk-card-hover">
+              <h4 class="uk-card-title">Telegram боты <span uk-icon="icon: phone; ratio: 1.3"></span></h4>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque sed beatae vero aliquam sunt fuga omnis
+                quas voluptas odit, deserunt obcaecati repudiandae excepturi non ab accusamus rem quasi vel tempore!</p>
+            </div>
+          </div>
+          <div>
+            <div class="uk-crad uk-card-body uk-card-default uk-card-hover">
+              <h4 class="uk-card-title">Back-end на Python <span uk-icon="icon: desktop; ratio: 1.3"></span></h4>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque sed beatae vero aliquam sunt fuga omnis
+                quas voluptas odit, deserunt obcaecati repudiandae excepturi non ab accusamus rem quasi vel tempore!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="uk-section uk-section-muted xp-edu">
+    <div class="uk-container">
+      <h2 class="uk-heading-medium">Образование</h2>
+      <div uk-grid>
+        <div>
+          <div class="uk-card uk-card-body uk-card-default">
+            <h3 class="uk-card-title">Донской государственный технический университет</h3>
+            <p class="uk-text-meta">2021 &mdash; н.в.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus iure in odio ducimus reprehenderit!
+              Assumenda magnam quae illo dignissimos possimus voluptates maxime facere, quia minus recusandae quasi
+              officiis culpa sequi.</p>
+          </div>
+        </div>
+        <div>
+          <div class="uk-card uk-card-body uk-card-default">
+            <h3 class="uk-card-title">Skillbox, Python back-end developer</h3>
+            <p class="uk-text-meta">2023 &mdash; н.в.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus iure in odio ducimus reprehenderit!
+              Assumenda magnam quae illo dignissimos possimus voluptates maxime facere, quia minus recusandae quasi
+              officiis culpa sequi.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="uk-section uk-section-muted xp-work" id="xp-work">
+    <div class="uk-container">
+      <h2 class="uk-heading-medium">Опыт работы</h2>
+      <div uk-grid>
+        <div>
+          <div class="uk-card uk-card-body uk-card-default">
+            <h3 class="uk-card-title">Back-end developer, "Вкурсе"</h3>
+            <p class="uk-text-meta">2023 &mdash; н.в.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus iure in odio ducimus reprehenderit!
+              Assumenda magnam quae illo dignissimos possimus voluptates maxime facere, quia minus recusandae quasi
+              officiis culpa sequi.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="uk-section reviews" id="reviews">
+    <div class="uk-container uk-position-relative">
+      <div uk-slider="infinite: true" class="uk-width-2-3@s uk-margin-auto">
+        <ul class="uk-slider-items uk-grid">
+          <li>
+            <article class="uk-comment" role="comment">
+              <header class="uk-comment-header">
+                <div class="uk-grid-medium uk-flex-middle" uk-grid>
+                  <div class="uk-width-auto">
+                    <img class="uk-comment-avatar" src="./images/reviews/avatar.jpg" width="80" height="80" alt="">
+                  </div>
+                  <div class="uk-width-expand">
+                    <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset" href="#">Author</a></h4>
+                    <ul class="uk-comment-meta uk-subnav uk-subnav-divider uk-margin-remove-top">
+                      <li>06.12.2023</li>
+                      <li><a href="#">Reply</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </header>
+              <div class="uk-comment-body">
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                  labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                  et
+                  ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="uk-comment" role="comment">
+              <header class="uk-comment-header">
+                <div class="uk-grid-medium uk-flex-middle" uk-grid>
+                  <div class="uk-width-auto">
+                    <img class="uk-comment-avatar" src="./images/reviews/avatar.jpg" width="80" height="80" alt="">
+                  </div>
+                  <div class="uk-width-expand">
+                    <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset" href="#">Author</a></h4>
+                    <ul class="uk-comment-meta uk-subnav uk-subnav-divider uk-margin-remove-top">
+                      <li>06.12.2023</li>
+                      <li><a href="#">Reply</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </header>
+              <div class="uk-comment-body">
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                  labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                  et
+                  ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="uk-comment" role="comment">
+              <header class="uk-comment-header">
+                <div class="uk-grid-medium uk-flex-middle" uk-grid>
+                  <div class="uk-width-auto">
+                    <img class="uk-comment-avatar" src="./images/reviews/avatar.jpg" width="80" height="80" alt="">
+                  </div>
+                  <div class="uk-width-expand">
+                    <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset" href="#">Author</a></h4>
+                    <ul class="uk-comment-meta uk-subnav uk-subnav-divider uk-margin-remove-top">
+                      <li>06.12.2023</li>
+                      <li><a href="#">Reply</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </header>
+              <div class="uk-comment-body">
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                  labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                  et
+                  ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+              </div>
+            </article>
+          </li>
+        </ul>
+        <a class="uk-visible@s uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous
+          uk-slider-item="previous"></a>
+        <a class="uk-visible@s uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next
+          uk-slider-item="next"></a>
+
+        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin-top"></ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="uk-section contacts" id="contacts">
+    <div class="uk-container">
+      <h2 class="uk-heading-medium">Связаться со мной</h2>
+      <div uk-grid class="uk-child-width-1-2@s">
+        <div>
+          <form class="uk-form-stacked" id="form">
+            <div class="uk-margin">
+              <label class="uk-form-label">Имя</label>
+              <div class="uk-form-controls">
+                <input type="text" class="uk-input" name="name">
+              </div>
+            </div class="uk-margin">
+            <div>
+              <div class="uk-form-label">E-mail</div>
+              <div class="uk-form-controls">
+                <input type="text" class="uk-input" name="email">
+              </div>
+            </div>
+            <div class="uk-margin">
+              <div class="uk-form-label">Ваше сообщение</div>
+              <div class="uk-form-controls">
+                <textarea name="message" class="uk-textarea"></textarea>
+              </div>
+            </div>
+            <div class="uk-margin">
+              <button type="submit" class="uk-button uk-button-primary">Отправить</button>
+            </div>
+          </form>
+        </div>
+        <div>
+          <div class="uk-card uk-card-body uk-card-primary contacts-card">
+            <h3 class="uk-card-title">Контакты</h3>
+            <p>
+              <span uk-icon="receiver"></span> <a href="tel:+7 (995) 893-25-23" target="_blank">+7 (995) 893-25-23</a>
+            </p>
+            <p>
+              <span uk-icon="mail"></span> <a href="mailto:mail@mail.ru" target="_blank">mail@mail.ru</a>
+            </p>
+            <p>
+              <span uk-icon="link"></span> <a href="https://t.me/seemyown" target="_blank">@seemyown</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div uk-alert class="alert uk-alert-success">
+    <p>Заявка успешно отправлена!</p>
+  </div>
+  <div uk-alert class="alert uk-alert-danger">
+    <p>Ошибка!</p>
+  </div>
+
+  <script src="./js/uikit.min.js"></script>
+  <script src="./js/uikit-icons.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
